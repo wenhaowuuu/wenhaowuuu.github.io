@@ -1,0 +1,21 @@
+.vega-actions a {
+  margin-right: 12px;
+  color: #757575;
+  font-weight: normal;
+  font-size: 13px;
+}
+.error {
+  color: red;
+}
+
+/* https://css-tricks.com/full-width-containers-limited-width-parents/ */
+.fullwidth {
+  display: flex;
+  justify-content: center;
+  /* width: 50vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw; */
+}

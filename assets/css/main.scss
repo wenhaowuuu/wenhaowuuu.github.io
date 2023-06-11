@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// article.page {
+//   float: left !important;
+//   width: 100% !important;
+// }
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// #altair-chart-1 {
+//   overflow-x: auto;
+//   width: 500px;
+// }
