@@ -1,6 +1,6 @@
 ---
 title: "Using Machine Learning to Predict Urban Development"
-date: 2023-01-07
+date: 2022-12-20
 published: true
 tags: [dataviz, folium]
 excerpt: "Where are the next real estate developments likely to happen?"
