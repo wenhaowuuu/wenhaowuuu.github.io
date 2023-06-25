@@ -20,8 +20,7 @@ The author developed with his team a complete workflow of constructing and apply
 ## Project Background
 
 In this project, I utilized Machine Learning algorithms to predict the future development potentials across the City of San Francisco, CA.  The model takes into consideration a wide range of parcel information and geospatial features from the City's publicly available development pipeline data in the past 10 years.
-![SF_news](assets/sfml_0.png)
-<!-- <div id="folium-chart-4"></div> -->
+![SF_news]({{ site.url }}{{ site.baseurl }}/assets/images/sfml_0.png)
 
 ### Where are the next real estate developments likely to happen?
 
