@@ -22,7 +22,8 @@ The author developed with his team a complete workflow of constructing and apply
 In this project, I utilized Machine Learning algorithms to predict the future development potentials across the City of San Francisco, CA.  The model takes into consideration a wide range of parcel information and geospatial features from the City's publicly available development pipeline data in the past 10 years.
 
 ### Where are the next real estate developments likely to happen?
-![SF_news]({{ site.url }}{{ site.baseurl }}/assets/images/sfml_0.png)
+<!-- ![SF_news]({{ site.url }}{{ site.baseurl }}/assets/images/sfml_0.png) -->
+![SF_news](/assets/images/sfml_0.png)
 
 ## The Wealth of Data
 Representative features about parcels were selected, including parcel size, year of structure built, assessed values, zoning regulations, building square footages, etc. These features were common factors to consider when a real estate developer investigates sites for potential development. These form the basis of the parcel data set that the Machine Learning model will further train on.
