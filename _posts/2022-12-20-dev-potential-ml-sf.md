@@ -29,8 +29,12 @@ Representative features about parcels were selected, including parcel size, year
 
 ## The Geospatial Layer of Things
 Then, a series of geospatial analyses were conducted to generate parcel-based accessibility values to different types of urban amenities (transit stops, parks, schools, retails, etc.). These geospatial features were then added to the main parcel dataset as additional geospatial features.
+![Geospatial_Feature_Generation]({{ site.url }}{{ site.baseurl }}/assets/images/sfml_gis_concept.jpeg)
 
 All parcels that have been included in the development pipeline over the past 10 years were marked as "Susceptible", and all the other parcels were marked as "Not Susceptible". A first look at this existing parcel data reveals some interesting patterns, for example, parcels located near BART stations are more likely to appear on the development pipeline than far away, yet parcels with mid-distance to parks and open spaces made the most frequent appearances on the development pipeline.
+![SF_news]({{ site.url }}{{ site.baseurl }}/assets/images/sf_ml_parks.png)
+![SF_news]({{ site.url }}{{ site.baseurl }}/assets/images/sf_ml_bart.png)
+![SF_news]({{ site.url }}{{ site.baseurl }}/assets/images/sf_ml_seismic.png)
 
 ## Machine Learning Models and Preliminary Result
 To predict the parcels' future development susceptibility, the City's parcel dataset was randomly shuffled and split into three subsets: the training dataset,  the testing/validation dataset, and the prediction dataset. Three different Machine Learning algorithms were trained and compared, namely, Logistic Regression, Naive Bayes, and Random Forest. Among the three, the Random Forest model had the lowest classification error. Then a separate prediction was made using the prediction dataset with the Logistic Regression model, since we were interested in explicitly tuning the subset of features that would influence the development susceptibility significantly. The modeling was implemented using Orange, an open-source data mining and analytics tool.
