@@ -38,8 +38,8 @@ This post shows an examples of an automated workflow from data processing, analy
 # The Quick Snapshot of a City
 ## Where is the City of Oakland?
 Oakland sits to the east of san Francisco across the bay. Below are two maps showing the City's location and street network, as well as its land cover from aerial photograph:
-![street map](https://raw.githubusercontent.com/wenhaowuuu/mysite/master/assets/images/basemap-6.png)
-![aerial map](https://raw.githubusercontent.com/wenhaowuuu/mysite/master/assets/images/aerial_map.png)
+![street map](/assets/images/basemap-6.png)
+![aerial map](/assets/images/aerial_map.png)
 
 ## Who live in the City?
 The City of <b>Oakland</b> has a total population of 437,548 based on ACS 2017-2021 5 years estimate. 
@@ -68,7 +68,7 @@ A different way to look at this is the bar chart below. Except waterbody, which 
 
 ### Existing Land Use Map
 Below is an overall map showing the various uses' distribution. Indeed most of the City area is covered by residential uses.
-![exlu map](https://raw.githubusercontent.com/wenhaowuuu/mysite/master/assets/images/Existing Land Use Category (L1).png | width=600)
+![exlu map](/assets/images/Existing Land Use Category (L1).png | width=600)
 
 ## How much does it cost to live here?
 As a City that dates its history back to the mid-19th century, Oakland's housing stock is generally older than that of the Alameda County and State of California overall.
@@ -77,14 +77,20 @@ As a middle-sized city, Oakland has a lot to offer in terms of housing. However,
 <div id="folium-chart-12"></div>
 <div id="folium-chart-13"></div>
 
+#### Median Monthly Housing Costs
+![med housing costs map](/assets/images/tract-Median Monthly Housing Costs.png)
+#### Median Household Income
+![med income map](/assets/images/tract-Median Household Income In The Past 12 Months (In 2021 Inflation-Adjusted Dollars).png)
+
 
 ### Where is the most/least affordable neighborhood?
 The City's housing cost can range largely from average to very expensive levels, depending on locations. Below is a map of the median gross rent per month across different neighborhoods in the City. Places with better transportation access, such as Downtown Oakland and the border area with Emeryville, generally show up with higher rent, while central and east Oakland along the industrial corridor generally are more affordable to rent.
-![med rent map](https://raw.githubusercontent.com/wenhaowuuu/mysite/master/assets/images/tract-Median Gross Rent.png)
+![med rent map](/assets/images/tract-Median Gross Rent.png)
 Comparing the above map with the below map of median home value, it is also observable that the traditionally wealthy neighborhoods on the hills have much higher property values. 
-![home val map](https://raw.githubusercontent.com/wenhaowuuu/mysite/master/assets/images/tract-Median Value (Dollars).png)
+
+![home val map](/assets/images/tract-Median Value (Dollars).png)
 It is also evident in the below map to see that the percentage of people living in poverty is reversely correlated with the property values.
-![poverty map](https://raw.githubusercontent.com/wenhaowuuu/mysite/master/assets/images/tract-pct Total- Income In The Past 12 Months Below Poverty Level.png)
+![poverty map](/assets/images/tract-pct Total- Income In The Past 12 Months Below Poverty Level.png)
 
 ## How do people ger around?
 The City encompasses various ways of mobility options, from driving on the City's highways and roads, taking public transportation, and biking or walking.
@@ -95,4 +101,11 @@ The City encompasses various ways of mobility options, from driving on the City'
 
 ### Measuring Walkability
 Intersection density has been used as a proxy metric to measure the walkability of a place. Below is a map visualizing this in space:
-![int dens map](https://raw.githubusercontent.com/wenhaowuuu/mysite/master/assets/images/intersecti.png)
+![int dens map](/assets/images/intersecti.png)
+
+## Other Existing Condition Maps
+![year built map](/assets/images/tract-Median Year Structure Built.png)
+![DU map](/assets/images/du per ac.png)
+![FAR map](/assets/images/FAR.png)
+![job dens map](/assets/images/emp per ac.png)
+
