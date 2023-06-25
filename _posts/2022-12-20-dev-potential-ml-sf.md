@@ -3,7 +3,7 @@ title: "Using Machine Learning to Predict Urban Development"
 date: 2022-12-20
 published: true
 tags: [machine learning, R studio, JavaScript, leaflet, mapbox, dataviz]
-excerpt: "This is a published study that utilizes Machine Learning models to predict potential real estate development sites in San Francisco based on historic trends, property characteristics and geospatial proximities. Tech stack includes JavaScript, Leaflet, MapboxGL, R Studio, Machine Learning, etc."
+excerpt: "An applied Machine Learning and Interactive Visualization study. Tech stack includes JavaScript, Leaflet, MapboxGL, R Studio, Machine Learning, etc."
 folium-loader:
   # folium-chart-1: ["charts/Median Age.html", "400"] # second argument is the height
   # folium-chart-2: ["charts/Median Gross Rent.html", "400"]
@@ -15,7 +15,7 @@ toc_sticky: true
 ---
 
 This post shows a published [study](https://www.routledge.com/The-Routledge-Companion-to-Artificial-Intelligence-in-Architecture/As-Basu/p/book/9780367424589) the author conducted while working at [Skidmore, Owings and Merill](https://www.som.com/). 
-The author developed with his team a complete workflow of constructing and applying several Machine Learning models to analyze historical development data in the City of San Francisco.
+The author developed with his team a complete workflow of constructing and applying several Machine Learning models to analyze historical development data in the City of San Francisco. The project predicts potential real estate development sites in San Francisco based on historic trends, property characteristics and geospatial proximities.
 
 ## Project Background
 

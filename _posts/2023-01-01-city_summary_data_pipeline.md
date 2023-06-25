@@ -3,7 +3,7 @@ title: "Automating Existing Conditions Analysis: One City a Time"
 date: 2023-01-01
 published: true
 tags: [python, geopandas, dash, dataviz, folium]
-excerpt: "A Python Notebook script that fetches a variety of existing conditions data from publicly accessible APIs and produce hundreds of production quality maps and interactive charts within seconds. Tech stack includes Python, GeoPandas, Dash, Folium, and Notebook."
+excerpt: "A Python data pipeline script to streamline various urban analyses. Tech stack includes Python, GeoPandas, Dash, ACS API, and Notebook."
 folium-loader:
   folium-chart-1: ["charts/Total Population.html", "400"] # second argument is the height
   folium-chart-2: ["charts/Median Age.html", "400"] 
@@ -33,7 +33,7 @@ toc: true
 toc_sticky: true
 ---
 
-This post shows an examples of an automated workflow from data processing, analysis and visualization that focuses on inspecting the current status of the City of Oakland, California, USA. The author developed a python script within Jupyter Notebook that gathers the data and generates interactive visualizations including tables, charts, and maps with [Plotly](https://plotly.com/) and [Folium](https://github.com/python-visualization/folium). This brief report demonstrates the potential benefits this workflow brings about at scale and some of the key insights the analysis unveils regarding urban planning and policy making.
+This post shows an examples of an automated workflow from data processing, analysis and visualization that focuses on inspecting the current status of the City of Oakland, California, USA. The author developed a python script within Jupyter Notebook that gathers the data from publicly accessible API data points and generates interactive visualizations including tables, charts, and maps with [Plotly](https://plotly.com/) and [Folium](https://github.com/python-visualization/folium). This brief report demonstrates the potential benefits this workflow brings about at scale and some of the key insights the analysis unveils regarding urban planning and policy making.
 
 # The Quick Snapshot of a City
 ## Where is the City of Oakland?
