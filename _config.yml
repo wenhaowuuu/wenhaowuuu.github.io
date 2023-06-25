@@ -16,7 +16,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "Data Science and Visualization Portfolio"
+title: "Bring Computing to Everything Urban"
 title_separator: "-"
 name: "Wenhao Wu"
 description: "Displaying cool analytics and data visualizations"
@@ -107,7 +107,7 @@ analytics:
 author:
   name: "Wenhao Wu"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Spatial Data Scientist and Urban Designer"
+  bio: "Geospatial Software Engineer, Data Scientist, Urban Planner. Master of Science in Computer Science from Georgia Tech. Master of City Planning from University of Pennsylvania"
   location: "Oakland, CA"
   email:
   links:
