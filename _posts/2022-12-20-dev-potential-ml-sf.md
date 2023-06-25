@@ -5,10 +5,10 @@ published: true
 tags: [dataviz, folium]
 excerpt: "Where are the next real estate developments likely to happen?"
 folium-loader:
-  folium-chart-1: ["charts/Median Age.html", "400"] # second argument is the height
-  folium-chart-2: ["charts/Median Gross Rent.html", "400"]
-  folium-chart-3: ["charts/lu_treemapchart_2.html", "600"]
-  folium-chart-4: ["charts/Average Household Size.html", "400"]
+  # folium-chart-1: ["charts/Median Age.html", "400"] # second argument is the height
+  # folium-chart-2: ["charts/Median Gross Rent.html", "400"]
+  # folium-chart-3: ["charts/lu_treemapchart_2.html", "600"]
+  # folium-chart-4: ["charts/Average Household Size.html", "400"]
 
 toc: true
 toc_sticky: true
