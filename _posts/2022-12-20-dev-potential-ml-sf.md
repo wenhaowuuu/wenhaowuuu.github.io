@@ -19,20 +19,21 @@ The author developed with his team a complete workflow of constructing and apply
 
 ## Project Background
 
-The City of <b>San Francisco</b> has xxx.
-<div id="folium-chart-4"></div>
+In this project, I utilized Machine Learning algorithms to predict the future development potentials across the City of San Francisco, CA.  The model takes into consideration a wide range of parcel information and geospatial features from the City's publicly available development pipeline data in the past 10 years.
+![SF_news](assets/sfml_0.png)
+<!-- <div id="folium-chart-4"></div> -->
 
 ###Where are the next real estate developments likely to happen?
-<div id="folium-chart-1"></div>
+<!-- <div id="folium-chart-1"></div> -->
 
 ## The Wealth of Data
 
-<div id="folium-chart-2"></div>
+<!-- <div id="folium-chart-2"></div> -->
 
 ## The Geospatial Layer of Things
 The City encompasses various land uses, from residential to commercial and industrial. Below is a chart showing the breakdown land uses from the most general category to the more granular uses.
 
-<div id="folium-chart-3"></div>
+<!-- <div id="folium-chart-3"></div> -->
 
 ## Machine Learning Models and Preliminary Result
 The model was constructed with four different algorithms.
