@@ -1,9 +1,9 @@
 ---
-title: "Automating Summary Report: One City a Time "
+title: "Automating Existing Conditions Analysis: One City a Time"
 date: 2023-01-01
 published: true
-tags: [dataviz, folium]
-excerpt: "Understanding what's it like living in any given city within seconds."
+tags: [python, geopandas, dash, dataviz, folium]
+excerpt: "A Python Notebook script that fetches a variety of existing conditions data from publicly accessible APIs and produce hundreds of production quality maps and interactive charts within seconds. Tech stack includes Python, GeoPandas, Dash, Folium, and Notebook."
 folium-loader:
   folium-chart-1: ["charts/Total Population.html", "400"] # second argument is the height
   folium-chart-2: ["charts/Median Age.html", "400"] 

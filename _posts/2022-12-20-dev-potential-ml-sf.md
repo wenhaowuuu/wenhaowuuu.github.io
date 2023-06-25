@@ -3,7 +3,7 @@ title: "Using Machine Learning to Predict Urban Development"
 date: 2022-12-20
 published: true
 tags: [dataviz, folium]
-excerpt: "Where are the next real estate developments likely to happen?"
+excerpt: "This is a published study that utilizes Machine Learning models to predict potential real estate development sites in San Francisco based on historic trends, property characteristics and geospatial proximities. Tech stack includes JavaScript, Leaflet, MapboxGL, R Studio, Machine Learning, etc."
 folium-loader:
   # folium-chart-1: ["charts/Median Age.html", "400"] # second argument is the height
   # folium-chart-2: ["charts/Median Gross Rent.html", "400"]
