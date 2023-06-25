@@ -33,7 +33,7 @@ toc: true
 toc_sticky: true
 ---
 
-This post shows an examples of an automated workflow from data processing, analysis and visualization that focuses on inspecting the current status of the City of Oakland, California, USA. The author developed a python script within Jupyter Notebook that gathers the data from publicly accessible API data points and generates interactive visualizations including tables, charts, and maps with [Plotly](https://plotly.com/) and [Folium](https://github.com/python-visualization/folium). This brief report demonstrates the potential benefits this workflow brings about at scale and some of the key insights the analysis unveils regarding urban planning and policy making.
+This post shows an examples of an automated workflow from data processing, analysis and visualization that focuses on inspecting the current status of the City of Oakland, California, USA. The author developed a python script within Jupyter Notebook that gathers the data from publicly accessible API data points and generates interactive visualizations including tables, charts, and maps with [Plotly](https://plotly.com/) and [Folium](https://github.com/python-visualization/folium). This brief report firstly demonstrates the potential benefits this workflow brings about at scale and some of the key insights the analysis unveils regarding urban planning and policy making. Then, it introduces the major components of the developed Python Script.
 
 # The Quick Snapshot of a City
 ## Where is the City of Oakland?
@@ -109,3 +109,30 @@ Intersection density has been used as a proxy metric to measure the walkability 
 ![FAR map](/assets/images/FAR.png)
 ![job dens map](/assets/images/emp per ac.png)
 
+
+# The Python Script
+Following are some code snippets that correspond to each major steps in this automated data pipeline script.
+
+## Data Fetching via APIs
+```python
+def print_message(message):
+  print(message)
+
+print_message("Request data via APIs")
+```
+
+## Charting via Dash and Plotly
+```python
+def print_message(message):
+  print(message)
+
+print_message("Making interactive charts")
+```
+## Geospatial Mapping via GeoPandas
+
+```python
+def print_message(message):
+  print(message)
+
+print_message("Making maps")
+```

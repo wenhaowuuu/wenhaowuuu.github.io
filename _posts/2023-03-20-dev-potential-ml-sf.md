@@ -1,6 +1,6 @@
 ---
 title: "Using Machine Learning to Predict Urban Development"
-date: 2022-12-20
+date: 2023-03-20
 published: true
 tags: [machine learning, R studio, JavaScript, leaflet, mapbox, dataviz]
 excerpt: "An applied Machine Learning and Interactive Visualization study. Tech stack includes JavaScript, Leaflet, MapboxGL, R Studio, Machine Learning, etc."
