@@ -1,2 +1,2 @@
 # wenhaowuuu.github.io
-the pseudo main site for custom domain hosting
+Blog site for data science and app development side projects.
